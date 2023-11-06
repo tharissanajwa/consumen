@@ -10,7 +10,7 @@ public class Consumen {
     private String city;
     private String province;
     private Timestamp registrationDate = new Timestamp(System.currentTimeMillis());
-    private String status = "A";
+    private String status = "A"; // A untuk Active and N untuk Non-Active
 
     public Integer getId() {
         return id;

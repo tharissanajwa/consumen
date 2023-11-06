@@ -4,6 +4,7 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+// Metode untuk mengakses dan memetakan data dari database relasional ke objek Java
 public class ConsumenMapper implements RowMapper<Consumen> {
 
     @Override
